@@ -1,82 +1,116 @@
 <!DOCTYPE html>
 <html>
   
+ <!-- HEADER START -->
 <head>
   <title>Lucas Denton's Portfolio</title>
   <meta charset="utf-8"/>
+  
+  <!-- Bootstrap 3.3.6 Formatting -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  <!-- Roboto Font Import -->
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  
+  <!-- CSS stylesheet -->
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-  
+ <!-- HEADER END -->
+ 
+ <!-- BODY START -->
 <body>
-  
-  
-  
-<section class="jumbotron">
-  <div class="container">
-    <div class="row text-center">
-      <h2>Lucas Denton</h2>
-      <h3>Contact Form</h3>
-      <a class="btn btn-primary" href="projects.html" role="button">Projects</a> 
-	  <a class="btn btn-primary" href="index.html" role="button">About Me</a>
-    </div>                       
-  </div>
-</section>
-  
-<section class="container">
-  <div class="row">
-    <figure class="col-sm-12">
-      
-	   <div class="container inputtext">
-  <form action="https://formspree.io/LADent99@gmail.com" method="post">
-
-    <label class="labeltext" for="fname">First Name</label>
-    <input  type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label class="labeltext" for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-	<label class="labeltext" for="email">Email Address</label>
-    <input type="text" id="email" name="email" placeholder="Email@placeholder.com ...">
-
-    <label class="labeltext" for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Send"><input type="reset" value="Clear">
+	<!-- PAGE CONTAINER START - USED FOR FOOTER PLACEMENT-->
+	<div id="page-container">
 	
-  </form>
-</div> 
+		<!-- CONTENT WRAP START - ALL PAGE CONTENT INCLUDED -->
+		<div id="content-wrap">
+			
+			<!-- JUMBOTRON START - PAGE BANNER AND LINKS -->
+			<section class="jumbotron">
+			
+				<!-- CONTAINER START - TEXT AND BUTTONS -->
+				<div class="container">
+				
+					<!-- ROW START - BANNER TEXT - BUTTONS -->
+					<div class="row text-center">
+						<h2>Lucas Denton</h2>
+						<h3>Contact Form</h3>
+						
+						<a class="btn btn-primary" href="index.html" role="button">About me</a> 
+						<a class="btn btn-primary" href="projects.html" role="button">Projects</a>
+					</div>  
+					<!-- ROW END - BANNER TEXT - BUTTONS -->
+					
+				</div>
+				<!-- CONTAINER END - TEXT AND BUTTONS -->
+				
+			</section>
+			<!-- JUMBOTRON END - PAGE BANNER AND LINKS -->
+			
+			<!-- SECTION START - FORM DATA -->
+			<section class="container">
+				<div class="row">
+					<figure class="col-sm-12">
+						
+						<!-- DIV START - INPUT DATA -->
+						<div class="container inputtext">
+						
+							<!-- FORM START -->
+							<form action="https://formspree.io/LADent99@gmail.com" method="post">
+								
+								<!-- FIRST NAME -->
+								<label class="labeltext" for="fname">First Name</label>
+								<input  type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    </figure>
-  </div>
-</section>
+								<!-- LAST NAME -->
+								<label class="labeltext" for="lname">Last Name</label>
+								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+								
+								<!-- EMAIL ADDRESS -->
+								<label class="labeltext" for="email">Email Address</label>
+								<input type="text" id="email" name="email" placeholder="Email@placeholder.com ...">
+								
+								<!-- SUBJECT -->
+								<label class="labeltext" for="subject">Subject</label>
+								<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+								
+								<!-- SUBMIT -->
+								<input type="submit" value="Send"><input type="reset" value="Clear">
+	
+							</form>
+							<!-- FORM END -->
+						</div> 
+						<!-- DIV END - INPUT DATA -->
 
-<footer>
-    <div class="container-fluid bg-footer">
-	<div class="row">
-	<div class="col-xs-12">
-	
-      
-		<h3>Contact Info</h3>
-		
-    </div>
-	</div>
-	
-	<div class="row foottext">
-		<div>
-		<h4>Email:</h4>
-		<h4 class="foottext">LADent99@gmail.com</h4>
+					</figure>
+				</div>
+			</section>
+			<!-- SECTION END - FORM DATA -->
+			
 		</div>
+		<!-- CONTENT WRAP END - ALL PAGE CONTENT INCLUDED -->
 		
-		<div>
-		<h4>Phone Number:</h4>
-		<h4 class="foottext">219-208-2791</h4>
-		</div>
-	</div>
-	
-	</div>
-  </footer>
+		<!-- FOOTER START -->
+		<footer id="footer">
+    
+			<h3 class="text-center">Contact Info</h3>
+			
+			<!-- DIV START - CONTACT INFO -->
+			<div class=" row labeltext">
+				<h4>Email:</h4>
+				<h4 class="foottext">LADent99@gmail.com</h4>
+		
+				<h4>Phone Number:</h4>
+				<h4 class="foottext">219-208-2791</h4>
+				
+			</div>
+			<!-- DIV END - CONTACT INFO -->
 
+		</footer>
+		<!-- FOOTER END -->
+		
+	</div>
+	<!-- PAGE CONTAINER END - USED FOR FOOTER PLACEMENT-->
 </body>
+<!-- BODY END -->
 </html>
