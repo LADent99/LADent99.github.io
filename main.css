@@ -29,12 +29,12 @@ header p {
 }
 
 .jumbotron {
-  display: flex;
+  display: fit;
   align-items: center;
   background-image: url(https://raw.githubusercontent.com/LADent99/LADent99.github.io/master/Images/image1.jpeg);
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 1000px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
