@@ -1,8 +1,14 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  background-color: #0d0d0d;
+  color: white;
+  display: flex;
+  flex-flow: column;
 }
-
+html, body {
+	height: 100%;
+}
 header {
   padding: 20px 0;
 }
@@ -29,12 +35,12 @@ header p {
 }
 
 .jumbotron {
-  display: fit;
+  display: center;
   align-items: center;
-  background-image: url(https://raw.githubusercontent.com/LADent99/LADent99.github.io/master/Images/image1.jpeg);
+  background-image: url(Images/image1.jpeg);
   background-size: cover;
   color: #ffffff;
-  height: 1000px;
+  height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -60,16 +66,22 @@ section .row img {
 }
 
 .btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
+  border-radius: 4px;
+  border: 4px;
+  color: #0d0d0d;
   text-shadow: none;
   background-color: #ffffff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #248f8f;
+  transform: translateY(1px);
 }
 
 .btn-secondary {
@@ -77,22 +89,28 @@ section .row img {
   color: #ffffff;
   margin: 0 0 30px;
 }
+.btn.btn-primary:active {
+  	
+  background-color: #145252;
+  transform: translateY(4px);
+}
 
 footer {
-  font-size: 12px;
-  padding: 20px 0;
+  padding: 20px;
+  background-color: #248f8f;
+  display: center;
+  align-items: center;
+  text-align: center;
 }
 
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+.foottext {
+	justify-content: center;
+	text-align: center;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #0d0d0d;
+	
 }
 
-footer ul {
-  list-style: none;
-}
 
-footer li img {
-  width: 32px;
-  height: 32px;
-}
