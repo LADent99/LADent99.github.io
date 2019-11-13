@@ -1,3 +1,6 @@
+/* This stylesheet was adapted from https://github.com/lonekorean/gist-syntax-themes.
+   This project retains the same CC-BY-SA-4.0 license.
+*/
 body .gist .highlight {
     background: #272822;
 }
@@ -142,4 +145,12 @@ body .gist .pl-ii,
 body .gist .pl-iu {
     background: #a6e22e;
     color: #272822;
+}
+body .gist .gist-meta {
+    display: none;
+}
+body .gist .gist-file {
+    margin-bottom: 0;
+    border: 3px solid #248f8f;
+    border-radius: 0;
 }
