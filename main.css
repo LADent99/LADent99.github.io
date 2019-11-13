@@ -202,3 +202,16 @@ input[type=reset]:active {
 }
 
 /* END FORM FORMATTING */
+
+/* GIST FORMATTING */
+.gist {
+   max-width:600px;
+   overflow:auto;
+}
+
+.gist .blob-wrapper.data {
+   max-height:400px;
+   overflow:auto;
+}
+
+/* END GIST FORMATTING */
