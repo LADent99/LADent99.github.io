@@ -123,6 +123,15 @@ footer {
 	
 }
 
+.labeltext {
+	justify-content: center;
+	text-align: left;
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #FFFFFF;
+	
+}
 
  /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
